@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+	
+    font-family: "Lucida Calligraphy", cursive, serif, sans-serif;;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #eee6cf;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head{
+    width: 100%;
+}
+.head h1{
+    font-weight: 500;
+    text-align: center;
+    color: #62871e;
+    line-height: 50px;
+    font-size: 30px;
+
+}
+.head .name{
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    font-size: 24px;
+    color: #62871e;
+    font-style: italic;
+}
+
+.head .name::before{
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: #62871e;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+}
+.head .name::after{
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: #62871e;
+    position: absolute;
+    top: 50%;
+    right: 150px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background: #a7e101;
+}
+.nav .nav-item{
+    float: left;
+    width: 180px;
+    line-height: 50px;
+    text-align: center;
+}
+.nav .nav-item.active{
+    background: #62871e;
+}
+.nav .nav-item a{
+    color: #fff;
+}
+
+.banner{
+    width: 100%;
+}
+.banner>img{
+    display: block;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    padding: 30px 20px;
+    background: #fff;
+}
+.title{
+    text-align: center;
+    color: #94622f;
+    line-height: 60px;
+    font-size: 30px;
+}
+.main>p{
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+
+.image-box{
+    width: 100%;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.image-box .image{
+    float: left;
+    width: 365px;
+    margin-right: 30px;
+}
+.image-box .image:nth-child(3){
+    margin-right: 0;
+}
+.image-box .image>img{
+    display: block;
+    width: 100%;
+}
+.image-box .photo{
+    float: left;
+    width: 365px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.image-box .photo:nth-child(3) ,.image-box .photo:nth-child(6){
+    margin-right: 0;
+}
+.image-box .photo>img{
+    display: block;
+    width: 100%;
+}
+
+
+.intro-box{
+    width: 100%;
+}
+.intro{
+    width: 100%;
+    border-bottom: 1px dashed #333;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro .image{
+    width: 280px;
+    height: 180px;
+    margin-right: 30px;
+}
+.intro .image>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.intro .message{
+    width: 800px;
+}
+.intro .message b{
+    line-height: 30px;
+}
+.intro .message .info{
+    line-height: 30px;
+}
+
+
+.foot{
+    width: 100%;
+    height: 50px;
+    background: #a7e101;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+
+
+.neirong {
+    padding: 20px;
+    color: #000000;
+}
+
+.messageB {
+    width: 600px;
+    padding: 10px 0;
+    overflow: hidden;
+    text-align: left;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.messageB ul li {
+    margin-top: 16px;
+}
+
+.messageB ul li span {
+    vertical-align: middle;
+    padding-right: 12px;
+    line-height: 30px;
+}
+
+.messageB ul li .message_in {
+    width: 490px;
+    height: 30px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+
+}
+
+.messageB ul li .message_te {
+    width: 490px;
+    height: 90px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    line-height: 18px;
+    padding: 0;
+}
+
+.messageB ul li .message_btn {
+    width: 100px;
+    height: 30px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.img-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.img-box .image{
+    width: 360px;
+    margin-bottom: 20px;
+}
+.img-box .image>img{
+    width: 100%;
+    border-radius: 5px;
+}
